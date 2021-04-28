@@ -84,21 +84,8 @@ function show_help {
 }
 
 function select_nix_distro {
-	read answer
-	case $answer in
-		1) LINUX_VERSION="Debian";;
-		2) LINUX_VERSION="Ubuntu";;
-		3) LINUX_VERSION="Kali";;
-		4) LINUX_VERSION="Fedora";;
-		5) LINUX_VERSION="Arch";;
-		6) LINUX_VERSION="BackBox";;
-		7) LINUX_VERSION="CentOS"
-			KING_PHISHER_SKIP_CLIENT="x";;
-		8) LINUX_VERSION="RedHat"
-			KING_PHISHER_SKIP_CLIENT="x";;
-		*) echo "ERROR: Invalid Linux selection, must be 1-8"
-			exit 0;;
-	esac
+	LINUX_VERSION="Debian";;
+	exit 0;;
 }
 
 function sync_dependencies {
