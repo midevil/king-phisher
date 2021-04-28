@@ -37,12 +37,12 @@ fi
 KING_PHISHER_GROUP="king-phisher"
 KING_PHISHER_USE_POSTGRESQL="no"
 KING_PHISHER_WEB_ROOT="/var/www"
-LINUX_VERSION=""
+LINUX_VERSION="1"
 BACKUP=false
 POSTGRES_BACKUP=""
 
 answer_all_no=false
-answer_all_yes=false
+answer_all_yes=true
 
 function prompt_yes_or_no {
 	# prompt the user to answer a yes or no question, defaulting to yes if no
