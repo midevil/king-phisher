@@ -84,8 +84,8 @@ function show_help {
 }
 
 function select_nix_distro {
-	LINUX_VERSION="Debian";;
-	exit 0;;
+	LINUX_VERSION="Debian"
+return 0;
 }
 
 function sync_dependencies {
